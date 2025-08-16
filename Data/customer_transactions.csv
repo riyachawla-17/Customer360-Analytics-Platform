@@ -1,0 +1,7 @@
+CustomerID,Product,PurchaseAmount,Date
+C001,Laptop,1200,2025-07-01
+C002,Phone,800,2025-07-02
+C001,Mouse,40,2025-07-03
+C003,Monitor,300,2025-07-04
+C004,Keyboard,100,2025-07-05
+C002,Tablet,600,2025-07-06

@@ -1,0 +1,5 @@
+CustomerID,Name,Email,Location,Gender
+C001,Alice Smith,alice@example.com,Toronto,F
+C002,Bob Johnson,bob@example.com,Vancouver,M
+C003,Charlie Lee,charlie@example.com,Calgary,M
+C004,Diana Patel,diana@example.com,Ottawa,F
