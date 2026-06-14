@@ -49,8 +49,6 @@ Auto-generated using Microsoft Fabric from the semantic model. Key visuals inclu
 - Churn Prediction Breakdown by Location/Product
 - Purchase vs Sentiment Comparison
 
-> Note: DAX measures were not manually created due to using the auto-create report option.
-
 ---
 
 ## Dashboard Preview
@@ -78,14 +76,3 @@ PySpark (MLlib)
 Azure Text Analytics
 
 Power BI (auto-report generation)
-
-## Author
-Riya Chawla
-
-Microsoft Certified: Azure Administrator (AZ-104)
-
-Currently preparing for: DP-700 - Data Engineer Associate
-
-📧 riyachawla203@gmail.com
-
-📍 Toronto, Canada
