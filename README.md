@@ -1,4 +1,4 @@
-# 📊 Customer360 Analytics Platform
+# Customer360 Analytics Platform
 
 A unified analytics solution built using **Microsoft Fabric**, combining customer transaction data, sentiment analysis, and churn prediction. This project aims to deliver actionable insights through intelligent dashboards and machine learning using PySpark MLlib and Power BI.
 
@@ -8,14 +8,14 @@ A unified analytics solution built using **Microsoft Fabric**, combining custome
 
 This platform simulates a 360-degree customer analytics solution for retail/e-commerce businesses. It includes:
 
-- 🔄 Data ingestion and cleansing using Fabric Lakehouse
-- 📉 Sentiment analysis using Text Analytics for customer reviews
-- 🔁 Churn prediction using PySpark (MLlib)
-- 📊 Visual reporting via Power BI dashboard (auto-created)
+- Data ingestion and cleansing using Fabric Lakehouse
+- Sentiment analysis using Text Analytics for customer reviews
+- Churn prediction using PySpark (MLlib)
+- Visual reporting via Power BI dashboard (auto-created)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 Customer360-Analytics-Platform/
 │
@@ -27,14 +27,14 @@ Customer360-Analytics-Platform/
 
 ---
 
-## 🧪 Key Components
+## Key Components
 
-### 1. 🔬 Sentiment Analysis (Step 5)
+### 1. Sentiment Analysis (Step 5)
 - Performed using Azure AI Text Analytics on customer review text.
 - Each review is tagged with a sentiment (positive, neutral, negative).
 - Sentiment score indexed numerically using a UDF in PySpark.
 
-### 2. 🔮 Churn Prediction (Step 6)
+### 2. Churn Prediction (Step 6)
 - Labels customers as **churned** (1) or **retained** (0) using randomized sampling.
 - Features include:
   - Purchase amount
@@ -42,7 +42,7 @@ Customer360-Analytics-Platform/
 - Trained using PySpark MLlib with a Logistic Regression classifier.
 - Accuracy evaluated on test data.
 
-### 3. 📈 Power BI Dashboard (Step 7)
+### 3. Power BI Dashboard (Step 7)
 Auto-generated using Microsoft Fabric from the semantic model. Key visuals include:
 - Total Customers
 - Churn Rate %
@@ -53,13 +53,13 @@ Auto-generated using Microsoft Fabric from the semantic model. Key visuals inclu
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 Find the `.pbix` or dashboard screenshots inside `dashboard/`.
 
 ---
 
-## 🧠 Learnings
+## Learnings
 
 Used Microsoft Fabric for end-to-end data handling.
 
@@ -69,7 +69,7 @@ Integrated structured + unstructured data for richer customer insights.
 
 Automated reporting with Power BI to accelerate decision-making.
 
-## 📌 Tech Stack
+## Tech Stack
 
 Microsoft Fabric (Lakehouse, Notebooks, Power BI)
 
